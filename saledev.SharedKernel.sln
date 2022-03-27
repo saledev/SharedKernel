@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "saledev.SharedKernel", "saledev.SharedKernel\saledev.SharedKernel.csproj", "{374A79B4-27E9-4C2F-9E0D-82AE7396ECDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80E0A213-2902-40C3-A980-8EEEB27877A6}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		.github\workflows\publish.yml = .github\workflows\publish.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{374A79B4-27E9-4C2F-9E0D-82AE7396ECDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374A79B4-27E9-4C2F-9E0D-82AE7396ECDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374A79B4-27E9-4C2F-9E0D-82AE7396ECDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374A79B4-27E9-4C2F-9E0D-82AE7396ECDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28FD920C-875B-4874-973F-1AB3F3F6C0C5}
+	EndGlobalSection
+EndGlobal
