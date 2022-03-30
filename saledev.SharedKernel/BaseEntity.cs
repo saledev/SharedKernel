@@ -7,11 +7,8 @@ public abstract class BaseEntity<TId> where TId : struct
 {
     public TId Id { get; set; }
 
-    [StringLength(255)]
-    public string? CreatedBy { get; set; }
-
-    [StringLength(255)]
-    public string? UpdatedBy { get; set; }
+    public Guid? CreatedBy { get; set; }
+    public Guid? UpdatedBy { get; set; }
     public DateTime? CreatedAt { get; set; }
     public DateTime? UpdatedAt { get; set; }
 
